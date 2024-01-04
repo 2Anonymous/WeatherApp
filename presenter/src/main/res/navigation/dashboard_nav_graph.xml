@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentHome"
-        android:name="com.sukdeb.weatherApp.ui.home.HomeFragment"
+        android:name="com.sukdeb.weatherApp.ui.dashBoard.home.HomeFragment"
         tools:layout="@layout/fragment_home"
         android:label="Home"/>
 

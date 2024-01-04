@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Weather-App</string>
 
+    <string name="permission_required_text">Permission Required</string>
     <string name="gps_status_enabled">"GPS is Enabled"</string>
     <string name="gps_status_disabled">"GPS is Disabled"</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gps_status_connecting">"GPS is Connecting"</string>
+    <string name="permission_denied_title">"Permission refused</string>
+    <string name="permission_denied_alert">Kindly allow permission from app setting without this permission app would not work properly.</string>
 </resources>

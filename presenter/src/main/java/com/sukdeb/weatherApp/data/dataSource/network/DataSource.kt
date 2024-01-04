@@ -1,6 +1,7 @@
 package com.sukdeb.weatherApp.data.dataSource.network
 
 import com.sukdeb.weatherApp.data.dto.user.UserDto
+import com.sukdeb.weatherApp.data.dto.weather.WeatherDto
 import com.sukdeb.weatherApp.domain.responseModel.Resource
 
 interface DataSource {
@@ -10,6 +11,6 @@ interface DataSource {
         lon: String,
         unit: String,
         appId: String
-    ): Resource<UserDto>
+    ): Resource<WeatherDto>
 
 }

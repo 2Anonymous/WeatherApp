@@ -1,6 +1,6 @@
 package com.sukdeb.weatherApp.data.dataSource.network
 
-import com.sukdeb.weatherApp.data.dto.user.UserDto
+import com.sukdeb.weatherApp.data.dto.weather.WeatherDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -11,5 +11,5 @@ interface ApiService {
         @Query("lon") lon: String,
         @Query("units") units: String?,
         @Query("appid") appId: String?
-    ): UserDto
+    ): WeatherDto
 }
