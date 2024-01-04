@@ -17,6 +17,8 @@ android {
         versionCode = AppConfig.versionCode
         versionName = AppConfig.versionName
 
+        buildConfigField("String", "BASE_URL", "\"http://api.openweathermap.org/data/\"")
+
         testInstrumentationRunner = AppConfig.androidTestInstrumentation
     }
 

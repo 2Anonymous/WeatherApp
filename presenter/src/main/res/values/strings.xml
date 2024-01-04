@@ -3,4 +3,6 @@
 
     <string name="gps_status_enabled">"GPS is Enabled"</string>
     <string name="gps_status_disabled">"GPS is Disabled"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
